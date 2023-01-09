@@ -1,0 +1,29 @@
+/* Styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Poppins:wght@300;400&display=swap");
+:root {
+  --primary-font: "Oswald", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+body {
+  padding: 0 50px;
+}
+/* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.header-img {
+  max-height: 100px;
+}
+.menu-container ul {
+  display: flex;
+  gap: 15px;
+}
+.menu-item a {
+  text-decoration: none;
+  color: #000;
+  font-family: var(--secondary-font);
+}
